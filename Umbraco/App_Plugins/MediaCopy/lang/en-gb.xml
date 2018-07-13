@@ -14,5 +14,6 @@
     <key alias="weEncountedAProblem"><![CDATA[We encountered a problem with the media during copy. Please check the error log for details.
 ]]></key>
     <key alias="chooseWhereToCopy"><![CDATA[Choose where to copy]]></key>
+    <key alias="cannotCopyToSelf"><![CDATA[Unfortunately you cannot copy to same place.]]></key>     
   </area>
 </language>

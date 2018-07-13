@@ -36,6 +36,9 @@ namespace MediaCopy.Services
 
         public CopyResponse Copy(int id, int destinationId = -1)
         {
+            if (id == destinationId)
+                return new CopyResponse { Message = _textService?.Localize("mediaCopy/cannotCopyToSelf") };
+
             IMedia media = _mediaService.GetById(id);
             if (media == null)
                 return new CopyResponse { Message = _textService?.Localize("mediaCopy/mediaItemCouldntBeFound") };
