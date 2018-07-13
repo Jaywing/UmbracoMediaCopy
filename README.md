@@ -7,6 +7,7 @@ The plugin allows you to copy individual media files or folders.
 - Allowed types permission is respected. 
 - The user permission model is respected, turning copy functionality off based on permission. 
 - It copies crops and focal points for each image by essentially copying the JSON output and replacing the image source.
+- It prevents copying to self for circular copying.
 - It can be fully localised, supporting en-GB by default. 
 - It uses AutoFac to handle dependencies.
 
