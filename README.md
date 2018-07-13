@@ -13,7 +13,7 @@ The plugin allows you to copy individual media files or folders.
 
 ## Basic Requirements
 
-- Umbraco 7.10.4 and above
+- Umbraco 7.11.1 and above
 - AutoFac 4.8.1 and above
 
 ## Screenshots
