@@ -1,0 +1,6 @@
+﻿{ 
+    "javascript": [
+            "~/App_Plugins/MediaCopy/backoffice/mediaCopy/mediaCopy.controller.js",
+            "~/App_Plugins/MediaCopy/backoffice/mediaCopy/MediaResource.js"
+        ] 
+}

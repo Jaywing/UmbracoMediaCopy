@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+  <creator>
+    <name>Jaywing</name>
+    <link>https://jaywing.com</link>
+  </creator>
+  <area alias="mediaCopy">
+    <key alias="copy"><![CDATA[Copy]]></key>
+    <key alias="copySuffix"><![CDATA[]]></key>
+    <key alias="mediaItemCouldntBeFound"><![CDATA[Media item couldn't be found.]]></key>
+    <key alias="destinationCouldntBeFound"><![CDATA[Destination couldn't be found.]]></key>
+    <key alias="youreNotAllowedToCopyUnder"><![CDATA[You're not allowed to copy %mediaName% under %destination%.]]></key>
+    <key alias="media"><![CDATA[Media]]></key>
+    <key alias="weEncountedAProblem"><![CDATA[We encountered a problem with the media during copy. Please check the error log for details.
+]]></key>
+    <key alias="chooseWhereToCopy"><![CDATA[Choose where to copy]]></key>
+  </area>
+</language>
