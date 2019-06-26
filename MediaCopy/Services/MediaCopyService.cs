@@ -13,6 +13,7 @@ using Umbraco.Core.IO;
 using Umbraco.Core.Logging;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
+using System.Net;
 
 namespace MediaCopy.Services
 {
@@ -136,7 +137,7 @@ namespace MediaCopy.Services
 
             try
             {
-                using (var inStream = _mediaFileSystem.OpenFile(fullPath))
+                using (var inStream = _mediaFileSystem.OpenFile(WebUtility.UrlDecode(fullPath)))
                 {
                     inStream.Position = 0;
                     copiedMedia.Properties[UmbracoFileAlias].Value = null;
